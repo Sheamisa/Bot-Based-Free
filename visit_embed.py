@@ -178,7 +178,7 @@ def visit():
                         discord_id = row[disc_id_index]
 
             embed = {
-                "username": "Nexus - Bot (FREE)",
+                "username": "Deluxe - Bot (FREE)",
                 "avatar_url": "https://cdn.discordapp.com/attachments/1168622199758917636/1237909962848604282/Picsart_24-05-09_07-31-13-582.jpg?ex=6641517e&is=663ffffe&hm=7b78e66aabd0c585320048e4f386e0c40d67411ba93604ca45cc02229e58fc50&",
                 "embeds": [
                     {
