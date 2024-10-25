@@ -16,9 +16,34 @@ load_dotenv()
 #Make sure to add Undercores in thee file_lcoation to prevent any errors.
 
 rbxlx_files = {
-    "nl": { #Theme Value make sure this not same value if you add a new theme
-        "theme_name": "Normal Theme",
+     "n1": { #Theme Value make sure this not same value if you add a new theme
+        "theme_name": "ROBUX THEMES:",
         "file_location": "Files/Normal_Theme.rbxlx"
+    },
+
+    "n2": { #Theme Value make sure this not same value if you add a new theme
+        "theme_name": "⏳ OBBY LIMITED THEME",
+        "file_location": "Files/Limited_Theme.rbxlx"
+    },
+
+    "n3": { #Theme Value make sure this not same value if you add a new theme
+        "theme_name": "🌋 LAVA ROBUX THEME ",
+        "file_location": "Files/Robux_Theme.rbxlx"
+    },
+
+    "n4": { #Theme Value make sure this not same value if you add a new theme
+        "theme_name": "🏦 BANK ROBUX THEME",
+        "file_location": "Files/Bank_Theme.rbxlx"
+    },
+
+    "n5": { #Theme Value make sure this not same value if you add a new theme
+        "theme_name": "OTHER THEMES:",
+        "file_location": "Files/Normal_Theme.rbxlx"
+    },
+
+    "n6": { #Theme Value make sure this not same value if you add a new theme
+        "theme_name": "🔪 Murder Mystery",
+        "file_location": "Files/mm2.rbxlx"
     },
     # Add more themes here as needed
 }
@@ -557,4 +582,4 @@ async def slash_publish_new_game(interaction: discord.Interaction, theme: discor
         embed_var = discord.Embed(title=message2, color=0xf00226)
         await interaction.followup.send(embed=embed_var, ephemeral=True)
 
-client.run(os.getenv('MTI5OTM5NDQ4NTA4MzU3NDI3Mg.GmXobg.usJCQHVcTWAAMAW3hYvrADXJQDJWhkkV1qUT4g'))
+client.run(os.getenv('TOKEN'))
